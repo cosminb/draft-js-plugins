@@ -241,7 +241,11 @@ export class MentionSuggestions extends Component {
     }
 
     if (this.props.onAddMention) {
-      this.props.onAddMention(mention);
+      const result = this.props.onAddMention(mention);
+      if ( result === "handled" ) { 
+        this.closeDropdown();
+        return;
+      }
     }
 
     this.closeDropdown();

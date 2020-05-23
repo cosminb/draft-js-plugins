@@ -1,7 +1,6 @@
 {
   "name": "draft-js-plugins",
   "version": "0.0.0",
-  "private": true,
   "description": "A Plugin Architecture on top of Draft.JS",
   "author": {
     "name": "Nik Graf",

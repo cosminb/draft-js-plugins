@@ -9,6 +9,7 @@ const addMention = (
   mentionTrigger,
   entityMutability
 ) => {
+  if ( !mention || !mention.name) return;
   const contentStateWithEntity = editorState
     .getCurrentContent()
     .createEntity(getTypeByTrigger(mentionTrigger), entityMutability, {

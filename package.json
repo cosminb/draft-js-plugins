@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-plugins",
+  "name": "@cosminb/draft-js-plugins",
   "version": "0.0.0",
   "description": "A Plugin Architecture on top of Draft.JS",
   "author": {
